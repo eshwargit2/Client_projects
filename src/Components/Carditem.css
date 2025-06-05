@@ -1,0 +1,39 @@
+.card-tool .card {
+       height: 300px;
+       width: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+       border-radius: 20px;
+       
+
+}
+
+.card h2{
+    font-size: 20px;
+    font-family:sans-serif, 'popins';
+}
+
+.card button{
+    border-radius: 30px;
+    background-color: rgb(16, 159, 16);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 8px 14px ;
+}
+.card button:focus{
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+
+  @media screen and (max-width:750px) {
+    .card-tool .card{
+        width: 180px;
+        height: 300px;
+    }
+    .card img{
+        width: 100px;
+    }
+  }
